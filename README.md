@@ -13,27 +13,27 @@ Markdownuts is the next PHP website generation tool, inspired by Jekyll and Elev
 
 ## Getting Started
 
-1. Install with composer :
+Install with composer :
 
 ```
 composer create-project creativitas/markdownuts
 ```
 
-2. Clone the starter repository:
+Clone the starter repository:
 
 ```bash
 git clone https://github.com/mesinkasir/markdownuts.git
 ```
 
-3. Navigate to the project directory:
+Navigate to the project directory:
 
 ```bash
 cd markdownuts
 ```
 
-4. Customize your content using Markdown files and YAML front matter.
+Customize your content using Markdown files and YAML front matter.
 
-5. Run your site in your PHP host
+Run your site in your PHP host
 
 ## Documentation
 
