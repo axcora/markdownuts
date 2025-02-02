@@ -1,0 +1,37 @@
+---
+layout: default.njk
+---
+{% set css %} {% include "style/themepost.css" %} {% endset %}
+<style>{{ css | cssmin | safe }}</style>
+<div class="container">
+<div class="donut-detail">
+<h1 id="donutName"><a href="{{page.url}}" class="linkes">Markdownuts Themes</a></h1>
+<div class="donut-content">
+<div class="donut-image">
+{% if image %}<img id="donutImage" src="{{image}}" alt="{{title}}">{% else %}<img src="/media/img/landscape/markdonuts-.png" alt="{{title}}">{% endif %}
+<div class="splat"></div>
+</div>
+<div class="donut-info">
+<h2 id="donutDescription" class="donut-description">Modern PHP markdown website themes template projects</h2>
+<p>{{content|safe}}</p>
+<div id="donutPrice" class="donut-price">{{price}}</div>
+<div class="ingredients">
+<h3>Features:</h3>
+<ul id="ingredientsList"></ul>
+</div>
+<a href="{{download}}" class="order-button no">Download Now!</a>
+</div>
+</div>
+</div>
+{%- if collections.themes %}
+{%- set previousPost = collections.themes | getPreviousCollectionItem %}
+{%- set nextPost = collections.themes | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+<div class="navigation pb-5">
+{%- if nextPost %}<a href="{{ nextPost.url }}" title="{{ nextPost.data.title }}" class="nav-button" id="nextButton">← Prev</a>{% endif %}
+{%- if previousPost %}<a href="{{ previousPost.url }}" title="{{ previousPost.data.title }}" class="nav-button" id="prevButton">Next →</a>{% endif %}
+</div>
+{%- endif %}
+{%- endif %}
+</div>
+{%- js %}{% include "js/themepost.js" %}{% endjs %}

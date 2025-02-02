@@ -1,0 +1,14 @@
+---
+layout: default.njk
+---
+{% set css %} {% include "style/docpost.css" %} {% endset %}
+<style>{{ css | cssmin | safe }}</style>
+<div class="container">
+<h1><a href="{{page.url}}" class="linkes">{{ title }}</a></h1>
+<div class="blog-post">
+{% if image %}<img src="{{image}}" alt="{{title}}">{% endif %}
+<h2>{{description}}</h2>
+{{ content | safe }}
+</div>
+</div>
+{%- js %}{% include "js/posts.js" %}{% endjs %}

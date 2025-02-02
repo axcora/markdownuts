@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+<head>
+{% include "partials/seo.njk" %}
+</head>
+<body>
+{% set css %} {% include "style/home.css" %} {% endset %}
+<style>{{ css | cssmin | safe }}</style>
+</head>
+<body>
+<div class="container">
+<h1>{{title}}</h1>
+<div class="donut" id="donut"></div>
+<p class="text-center">{{description}}</p>
+<div class="menu">{% for n in menu %}
+<a href="{{n.url}}" class="menu-item">{{n.name}}</a>{% endfor %}
+</div>
+</div>
+{%- js %}{% include "js/home.js" %}{% endjs %}
+<script type="module" src="{% getBundleFileUrl "js" %}"></script>
+</body>
+</html>

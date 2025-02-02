@@ -1,0 +1,157 @@
+        .donut-detail {
+            background-color: #FFF;
+            border: 5px solid #000;
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .donut-detail::before {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            background: repeating-linear-gradient(
+                45deg,
+                #FFD700,
+                #FFD700 10px,
+                #FF1493 10px,
+                #FF1493 20px
+            );
+            z-index: -1;
+        }
+
+        .donut-detail h1 {
+            font-size: 3em;
+            color: #FF1493;
+            text-shadow: 2px 2px 0 #000;
+            margin-bottom: 20px;
+            transform: rotate(-3deg);
+        }
+        .donut-detail h2 {
+            font-size: 2em;
+            color: #000;
+            text-shadow: 2px 2px 0 #FDEB7D;
+        }
+
+        .donut-content {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+
+        .donut-image {
+            flex: 1;
+            position: relative;
+        }
+
+        .donut-image img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 5px solid #000;
+        }
+
+        .splat {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: rgba(255, 255, 0, 0.5);
+            border-radius: 50%;
+            top: -20px;
+            right: -20px;
+            transform: rotate(30deg);
+        }
+
+        .donut-info {
+            flex: 1;
+            margin-bottom: 20px;
+        }
+
+        .donut-description {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .donut-price {
+            font-size: 2em;
+            font-weight: bold;
+            color: #FFD700;
+            text-shadow: 3px 2px 1px #000;
+            margin-bottom: 20px;
+        }
+
+        .ingredients {
+            background-color: #FDEB7D;
+            border: 3px solid #000;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 40px;
+        }
+
+        .ingredients h2 {
+            margin-top: 0;
+            color: #FF1493;
+        }
+
+        .ingredients ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .ingredients li {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .ingredients li::before {
+            content: "• ";
+            color: #FF1493;
+        }
+
+        .order-button {
+            background-color: #FF1493;
+            color: #FFF;
+            border: 3px solid #000;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .order-button:hover {
+            transform: scale(1.05) rotate(-3deg);
+            background-color: #FFD700;
+            color: #000;
+            box-shadow: 5px 5px 0 #000;
+        }
+
+         @media screen and (max-width: 768px) {
+            .donut-content {
+                flex-direction: column;
+            }
+
+            .donut-image, .donut-info {
+                width: 100%;
+            }
+
+            .donut-detail h1 {
+                font-size: 2.5em;
+            }
+
+            .donut-price {
+                font-size: 1.8em;
+            }
+
+            .order-button {
+                width: 100%;
+            }
+        }

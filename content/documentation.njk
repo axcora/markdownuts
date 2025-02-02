@@ -1,0 +1,34 @@
+---
+layout: default.njk
+title: Documentation
+description: MarkDownuts Docs
+pagination:
+  data: collections.docs
+  size: 6
+  reverse: true
+testdata:
+ - item1
+ - item2
+ - item3
+ - item4
+permalink: "docs/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+{% set css %} {% include "style/docs.css" %} {% endset %}
+<style>{{ css | cssmin | safe }}</style>
+<div class="container">
+<h1>{{description}}</h1>
+<div class="menu-grid">{%- for donuts in pagination.items %}
+<a href="{{donuts.url}}" class="menu-item no">
+<div class="splat"></div>
+{% if donuts.data.image %}<img src="{{donuts.data.image}}" alt="{{donuts.data.title}}">
+{% else %}<img src="media/img/sweetdonuts.webp" alt="{{donuts.data.title}}">{% endif %}
+<h3>{{donuts.data.title}}</h3>
+<p>{{donuts.data.description}}</p>
+<div class="price">{{donuts.data.info}}</div></a>{% endfor -%}
+</div>
+</div>
+<div class="pagination">
+{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">&laquo;</a>{% endif %}
+{%- for pageEntry in pagination.pages %}<a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %}" class="active"{% endif %}>{{ loop.index }}</a>{%- endfor %}
+{% if pagination.href.next %}<a href="{{ pagination.href.next }}">&raquo;</a>{% endif %}</div>
+{%- js %}{% include "js/docs.js" %}{% endjs %}

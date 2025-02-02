@@ -1,0 +1,80 @@
+        body {
+            font-family: 'Comic Sans MS', cursive;
+            background-color: #FF69B4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 4em;
+            text-align: center;
+            color: #FFD700;
+            text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000;
+            transform: rotate(-5deg);
+        }
+        .text-center {
+            font-size: 12px;
+            text-align: center; color: #000;
+        }
+        a {text-decoration:none;}
+        .donut {
+            width: 200px;
+            height: 200px;
+            background-color: #8B4513;
+            border-radius: 50%;
+            position: relative;
+            margin: 50px auto;
+            box-shadow: 0 0 0 20px #D2691E;
+        }
+        
+        .donut::before {
+            content: "";
+            width: 80px;
+            height: 80px;
+            background-color: #FF69B4;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .sprinkle {
+            width: 10px;
+            height: 10px;
+            background-color: #FFD700;
+            position: absolute;
+            border-radius: 50%;
+        }
+        
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .menu-item {
+            background-color: #00CED1;
+            border: 5px solid #000;
+            border-radius: 15px;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #000;
+            text-transform: uppercase;
+            transform: rotate(3deg);
+            transition: transform 0.3s;
+        }
+        
+        .menu-item:hover {
+            transform: scale(1.1) rotate(-3deg);
+        }

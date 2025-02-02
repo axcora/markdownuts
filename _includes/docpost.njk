@@ -1,0 +1,27 @@
+---
+layout: default.njk
+---
+{% set css %} {% include "style/docpost.css" %} {% endset %}
+<style>{{ css | cssmin | safe }}</style>
+<div class="container">
+<h1><a href="{{page.url}}" class="linkes">{{ title }}</a></h1>
+<div class="blog-post">
+{% if image %}<img src="{{image}}" alt="{{title}}">{% else %}<img src="/media/img/sweetdonuts.webp" alt="{{title}}">{% endif %}
+<h2>{{description}}</h2>
+<!--<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>-->
+<p>{%- for tag in tags | filterTagList %}	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+<a href="{{ tagUrl }}" class="tags">{{ tag }}</a>{%- if not loop.last %} {% endif %}{%- endfor %}</p>
+{{ content | safe }}
+</div>
+{%- if collections.docs %}
+{%- set previousPost = collections.docs | getPreviousCollectionItem %}
+{%- set nextPost = collections.docs | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+<div class="navigation pb-5">
+{%- if nextPost %}<a href="{{ nextPost.url }}" title="{{ nextPost.data.title }}" class="nav-button" id="nextButton">← Prev</a>{% endif %}
+{%- if previousPost %}<a href="{{ previousPost.url }}" title="{{ previousPost.data.title }}" class="nav-button" id="prevButton">Next →</a>{% endif %}
+</div>
+{%- endif %}
+{%- endif %}
+</div>
+{%- js %}{% include "js/posts.js" %}{% endjs %}

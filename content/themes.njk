@@ -1,0 +1,40 @@
+---
+layout: default.njk
+title: Themes
+description: MarkDownuts Themes Collections
+pagination:
+  data: collections.themes
+  size: 6
+  reverse: true
+testdata:
+ - item1
+ - item2
+ - item3
+ - item4
+permalink: "themes/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+{% set css %} {% include "style/themes.css" %} {% endset %}
+<style>{{ css | cssmin | safe }}</style>
+<div class="container">
+<h1>{{description}}</h1>
+<div class="menu-grid" id="menuGrid">
+{%- for donuts in pagination.items %}
+<a href="{{donuts.url}}" class="menu-item no">
+<div class="splat"></div>
+{% if donuts.data.image %}<img src="{{donuts.data.image}}" alt="{{donuts.data.title}}">
+{% else %}<img src="media/img/sweetdonuts.webp" alt="{{donuts.data.title}}">{% endif %}
+<div class="info">
+<h3>{{donuts.data.title}}</h3>
+<p>{{donuts.data.description}}</p>
+<div class="price">{{donuts.data.price}}</div>
+</div>
+</a>
+{% endfor %}
+</div>
+<div class="pagination">
+{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}"><button id="prevBtn">&laquo; Previous Themes</button></a>{% endif %}
+{% if pagination.href.next %}<a href="{{ pagination.href.next }}"><button id="nextBtn">Next Themes &raquo;</button></a>{% endif %}</div>
+</div>
+{%- js %}{% include "js/theme.js" %}{% endjs %}
+
+

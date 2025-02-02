@@ -1,0 +1,13 @@
+<header>
+<nav>
+<div class="logo"><a href="{{metadata.nav.link}}">{{metadata.nav.title}}</a></div>
+<ul class="nav-links">{% for n in metadata.navbar %}
+<li><a href="{{n.link}}">{{n.nav}}</a></li>{% endfor %}
+</ul>
+<div class="hamburger">
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div>
+</div>
+</nav>
+</header>

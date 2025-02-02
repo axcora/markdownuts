@@ -1,0 +1,97 @@
+---
+layout: default.njk
+title: Image Gallery
+pagination:
+  data: collections.images
+  size: 6
+  alias: images
+permalink: "gallery/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+{% set css %} {% include "style/gallery.css" %} {% endset %}
+<style>{{ css | cssmin | safe }}</style>
+<div class="container">
+  <h1>{{ title }}</h1>
+  <div id="gallery" class="gallery">
+    {% for image in pagination.items %}
+    <div class="gallery-item">
+      <img src="{{ image.src }}" alt="{{ metadata.title }} {{ image.alt }}" loading="lazy" onclick="openModal('{{ image.src }}', '{{ metadata.title }} {{ image.alt }}')">
+      <div class="caption">{{ metadata.title }} {{ image.alt }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="pagination">
+    {% if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}"><button id="prevBtn">Previous</button></a>
+    {% else %}
+      <button id="prevBtn" disabled>Previous</button>
+    {% endif %}
+
+    {% if pagination.href.next %}
+      <a href="{{ pagination.href.next }}"><button id="nextBtn">Next</button></a>
+    {% else %}
+      <button id="nextBtn" disabled>Next</button>
+    {% endif %}
+  </div>
+</div>
+
+<div id="imageModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImage">
+  <div id="caption"></div>
+</div>
+
+<script>
+
+  function openModal(imgSrc, caption) {
+    var modal = document.getElementById("imageModal");
+    var modalImg = document.getElementById("modalImage");
+    var captionText = document.getElementById("caption");
+    modal.style.display = "block";
+    modalImg.src = imgSrc;
+    captionText.innerHTML = caption;
+  }
+
+  function closeModal() {
+    var modal = document.getElementById("imageModal");
+    modal.style.display = "none";
+  }
+
+  // Close modal when clicking outside the image
+  window.onclick = function(event) {
+    var modal = document.getElementById("imageModal");
+    if (event.target == modal) {
+      closeModal();
+    }
+  }
+
+  // Close modal with Escape key
+  document.addEventListener('keydown', function(event) {
+    if (event.key === "Escape") {
+      closeModal();
+    }
+  });
+
+  // Animation for pagination buttons
+  document.addEventListener('DOMContentLoaded', function() {
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    [prevBtn, nextBtn].forEach(btn => {
+      if (btn) {
+        btn.addEventListener('mouseover', () => {
+          if (!btn.disabled) {
+            btn.style.transform = 'scale(1.05) rotate(-3deg)';
+            btn.style.boxShadow = '5px 5px 0 #000';
+          }
+        });
+        btn.addEventListener('mouseout', () => {
+          if (!btn.disabled) {
+            btn.style.transform = 'scale(1) rotate(0deg)';
+            btn.style.boxShadow = 'none';
+          }
+        });
+      }
+    });
+  });
+</script>
+
