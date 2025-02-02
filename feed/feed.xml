@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>MarkDownuts</title>
+  <subtitle>Next PHP Website Generation - Markdown YAML frontmatter in PHP - Flatfile CMS A Static Site Generator Alternative</subtitle>
+  <link href="https://markdownuts.axcora.com/markdownuts/feed/feed.xml" rel="self" />
+  <link href="https://markdownuts.axcora.com/markdownuts/" />
+  <updated>2025-01-01T00:00:00Z</updated>
+  <id>https://markdownuts.axcora.com/markdownuts/</id>
+  <author>
+    <name>Axcora</name>
+  </author>
+  <entry>
+    <title>This is my first post.</title>
+    <link href="https://markdownuts.axcora.com/markdownuts/blog/firstpost/" />
+    <updated>2025-01-01T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/markdownuts/blog/firstpost/</id>
+    <content type="html">&lt;p&gt;My first post here...&lt;/p&gt;
+</content>
+  </entry>
+</feed>

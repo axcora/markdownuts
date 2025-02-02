@@ -1,0 +1,7 @@
+
+# Allow crawling of all content
+User-agent: *
+Allow: /
+
+
+Sitemap: https://markdownuts.axcora.com/sitemap.xml
