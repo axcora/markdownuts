@@ -39,7 +39,7 @@ Here's the improved version of the article:
 
 Contribute your themes to our project by following these steps:
 
-1. Clone or fork our GitHub repository. [https://github.com/mesinkasir/markdownuts](https://github.com/mesinkasir/markdownuts)
+1. Clone or fork our GitHub repository. [https://github.com/axcora/markdownuts](https://github.com/axcora/markdownuts)
 
 2. Upload theme images:
    - Place your theme images in the following directory:
