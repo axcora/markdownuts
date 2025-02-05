@@ -45,7 +45,15 @@ Install with composer
 composer create-project creativitas/markdownuts my-project
 ```
 
+Or install with your project name
+
+```php
+composer create-project creativitas/markdownuts my-project
+```
+
 Download Full Source Code Package [[Download Markdownuts]](https://creativitaz.gumroad.com/l/markdownuts-starter)
+
+Next you can open on `config.yml` and update your site url that's it , your markdownuts project is live !!
 
 Start building your next project with Markdownuts today and experience the perfect blend of simplicity, speed, and power in static site generation.
 
