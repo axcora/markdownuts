@@ -17,6 +17,7 @@ export default async function(eleventyConfig) {
 			"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
 		})
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
+    eleventyConfig.addPassthroughCopy("CNAME");
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 	eleventyConfig.addBundle("css");
 	eleventyConfig.addBundle("js");
