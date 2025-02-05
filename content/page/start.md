@@ -42,7 +42,7 @@ Inspired by the simplicity and speed of Jekyll and Eleventy (11ty), Markdownuts 
 Install with composer 
 
 ```php
-composer create-project creativitas/markdownuts my-project
+composer create-project creativitas/markdownuts
 ```
 
 Or install with your project name
