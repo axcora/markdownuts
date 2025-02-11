@@ -12,3 +12,9 @@ Before your create static page or blog post article, for first you need to setup
 
 You can access on `config.yml` file and update meta title, description , favicon logo, language, locale, and others,on this area.
 
+After your have update your site, you can generate sitemap by access on `yoursite.com/getsitemap.php`
+
+For manual generate sitemap , open terminal and run this command `php generate_sitemap.php`
+
+And your `sitemap.xml` is ready in your root project.
+
