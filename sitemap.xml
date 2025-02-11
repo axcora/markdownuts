@@ -12,6 +12,11 @@
 	</url>
 	
 	<url>
+		<loc>https://markdownuts.axcora.com/doc/generate-sitemap/</loc>
+		<lastmod>2025-01-03</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://markdownuts.axcora.com/doc/media/</loc>
 		<lastmod>2025-01-04</lastmod>
 	</url>
@@ -223,6 +228,16 @@
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/footer/</loc>
+		<lastmod>2025-02-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://markdownuts.axcora.com/tags/sitemap/</loc>
+		<lastmod>2025-02-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://markdownuts.axcora.com/tags/generate/</loc>
 		<lastmod>2025-02-11</lastmod>
 	</url>
 	
