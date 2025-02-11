@@ -62,7 +62,7 @@ eleventyConfig.addPassthroughCopy("content/media/img/gallery");
 			language: "en",
 			title: "MarkDownuts",
 			subtitle: "Next PHP Website Generation - Markdown YAML frontmatter in PHP - Flatfile CMS A Static Site Generator Alternative",
-			base: "https://markdownuts.axcora.com/",
+			base: "https://markdownuts.axcora.com",
 			author: {
 				name: "Axcora"
 			}
