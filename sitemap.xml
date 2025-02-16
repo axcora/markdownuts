@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://markdownuts.axcora.com/theme/brutalisme/</loc>
-		<lastmod>2018-07-04</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://markdownuts.axcora.com/blog/firstpost/</loc>
 		<lastmod>2025-01-01</lastmod>
 	</url>
@@ -122,257 +117,287 @@
 	</url>
 	
 	<url>
+		<loc>https://markdownuts.axcora.com/theme/brutalisme/</loc>
+		<lastmod>2025-02-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://markdownuts.axcora.com/theme/admincms/</loc>
+		<lastmod>2025-02-16</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://markdownuts.axcora.com/blog/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/docs/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/gallery/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/about/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/contact/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/start/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/support/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/create/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/new/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/static/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/page/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/article/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/author/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/configuration/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/setup/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/blog/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/delete/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/remove/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/download/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/source-code/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/footer/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/sitemap/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/generate/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/composer/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/installation-via-composer/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/installation/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/github/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/clone/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/fork/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/upload/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/file/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/media/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/photo/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/video/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/navbar/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/pagination/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/seo/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/social-media/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/how-to-install/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/preparation/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/update/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/edit/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://markdownuts.axcora.com/tags/cms/</loc>
+		<lastmod>2025-02-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://markdownuts.axcora.com/tags/content-management-system/</loc>
+		<lastmod>2025-02-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://markdownuts.axcora.com/tags/plugins/</loc>
+		<lastmod>2025-02-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://markdownuts.axcora.com/tags/widget/</loc>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/brutal/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/brutalisme/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/starter/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/pages/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/images/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/tags/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/themes/</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://markdownuts.axcora.com/feed/feed.xml</loc>
-		<lastmod>2025-02-11</lastmod>
+		<lastmod>2025-02-16</lastmod>
 	</url>
 </urlset>
