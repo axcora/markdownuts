@@ -8,7 +8,7 @@ features:
  - Plugins
  - Widget
  - Content Management System
- - CMS
+ - Backend CMS
 price: "Free"
 download: "https://creativitaz.gumroad.com/l/markdownuts-admin/"
 tags:
