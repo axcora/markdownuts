@@ -1,7 +1,7 @@
 ---
 title: "Admin CMS"
 description: "A Backend Content Management System for your MarkDownuts Projects"
-image: "/media/themes/admincms.webp
+image: "/media/themes/admincms.webp"
 date: 2025-02-16
 features: 
  - Admin CMS
@@ -9,10 +9,11 @@ features:
  - Widget
  - Content Management System
  - Backend CMS
+ - CMS
 price: "Free"
-download: "https://creativitaz.gumroad.com/l/markdownuts-admin/"
+download: "https://creativitaz.gumroad.com/l/markdownuts-admin"
 tags:
-  - cms
+  - CMS
   - content management system
   - plugins
   - widget
