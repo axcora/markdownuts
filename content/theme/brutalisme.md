@@ -2,7 +2,7 @@
 title: "Brutalisme"
 description: "A Starter Projects For your website"
 image: "/media/themes/markdownuts-brutalisme.webp"
-date: 2018-07-04
+date: 2025-02-14
 features: 
  - Brutal Concept
  - Clean Design
