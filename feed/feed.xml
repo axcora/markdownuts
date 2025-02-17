@@ -5,17 +5,169 @@
   <subtitle>Next PHP Website Generation - Markdown YAML frontmatter in PHP - Flatfile CMS A Static Site Generator Alternative</subtitle>
   <link href="https://markdownuts.axcora.com/feed/feed.xml" rel="self" />
   <link href="https://markdownuts.axcora.com/" />
-  <updated>2025-01-01T00:00:00Z</updated>
+  <updated>2025-01-26T00:00:00Z</updated>
   <id>https://markdownuts.axcora.com/</id>
   <author>
     <name>Axcora</name>
   </author>
   <entry>
-    <title>This is my first post.</title>
-    <link href="https://markdownuts.axcora.com/blog/firstpost/" />
-    <updated>2025-01-01T00:00:00Z</updated>
-    <id>https://markdownuts.axcora.com/blog/firstpost/</id>
-    <content type="html">&lt;p&gt;My first post here...&lt;/p&gt;
+    <title>Get Started</title>
+    <link href="https://markdownuts.axcora.com/doc/start/" />
+    <updated>2025-01-26T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/doc/start/</id>
+    <content type="html">&lt;p&gt;Do you want to develop and build a website by adopting the concept of a static site generator,working with markdown , yaml like jekyll / 11ty eleventy, and running on your PHP hosting??&lt;/p&gt;
+&lt;p&gt;MarkDownuts is the right solution for you.&lt;/p&gt;
+&lt;p&gt;This project is inspired by Jekyll, Eleventy 11ty which focuses on speed, simplicity, stability, and security. and ease of working with markdown and yaml files.&lt;/p&gt;
+&lt;p&gt;Let&#39;s start using markdownuts now to build a modern PHP website easily and quickly.&lt;/p&gt;
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Very easy to use&lt;/li&gt;
+&lt;li&gt;No Database&lt;/li&gt;
+&lt;li&gt;No Need Build Production&lt;/li&gt;
+&lt;li&gt;Easy Installation , Just download and upload in to your PHP host , and your site is live&lt;/li&gt;
+&lt;li&gt;Can install via Composer&lt;/li&gt;
+&lt;li&gt;Markdown Content .md Files&lt;/li&gt;
+&lt;li&gt;YAML Fonrtmatter .yml files&lt;/li&gt;
+&lt;li&gt;Auto SEO Injection Script&lt;/li&gt;
+&lt;li&gt;Meta Tag&lt;/li&gt;
+&lt;li&gt;Twitter Card&lt;/li&gt;
+&lt;li&gt;Open Graph&lt;/li&gt;
+&lt;li&gt;Focus for Speed and Peformance&lt;/li&gt;
+&lt;li&gt;Run on PHP&lt;/li&gt;
+&lt;li&gt;Dynamic Blog Page&lt;/li&gt;
+&lt;li&gt;Blog List&lt;/li&gt;
+&lt;li&gt;Blog Pagination&lt;/li&gt;
+&lt;li&gt;Post Pagination&lt;/li&gt;
+&lt;li&gt;Tags List&lt;/li&gt;
+&lt;li&gt;Tags Page&lt;/li&gt;
+&lt;li&gt;Static Page&lt;/li&gt;
+&lt;li&gt;Sitemap Generator&lt;/li&gt;
+&lt;li&gt;And More...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Download and run MarkDownuts project now!!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Installation</title>
+    <link href="https://markdownuts.axcora.com/doc/installation/" />
+    <updated>2025-01-25T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/doc/installation/</id>
+    <content type="html">&lt;p&gt;To install MarkDownuts you can use three options.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install via composer&lt;/li&gt;
+&lt;li&gt;Install via github&lt;/li&gt;
+&lt;li&gt;Download Full Main Source Code&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To install via github you can &lt;a href=&quot;https://nodejs.org/en/download&quot;&gt;download Node Js&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To install via composer , you need to &lt;a href=&quot;https://getcomposer.org/download/&quot;&gt;download composer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you want download full source code project , you can visit our download link.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Installation Via Composer</title>
+    <link href="https://markdownuts.axcora.com/doc/install-via-composer/" />
+    <updated>2025-01-24T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/doc/install-via-composer/</id>
+    <content type="html">&lt;p&gt;You can install the MarkDownuts project via composer, create your project folder , open terminal and run this command.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;composer create-project creativitas/markdownuts
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Congratulations, your website is live now, Next step you can update your blog.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Install via Github</title>
+    <link href="https://markdownuts.axcora.com/doc/intall-via-github/" />
+    <updated>2025-01-23T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/doc/intall-via-github/</id>
+    <content type="html">&lt;p&gt;You can also install via github, for first open your project folder,or if you want to run in to your PHP hosting,you can open terminal and access your project, and run this command.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/mesinkasir/markdownuts.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next you need to install with run &lt;code&gt;composer install&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Congratulations, your website is live now !!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Download MarkDownuts</title>
+    <link href="https://markdownuts.axcora.com/doc/download/" />
+    <updated>2025-01-22T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/doc/download/</id>
+    <content type="html">&lt;p&gt;You can also download full main source code if you want use the complete package.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://creativitaz.gumroad.com/l/markdownuts-starter&quot;&gt;Download MarkDownuts Now&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After download source code project, you can upload the file in to your host.&lt;/p&gt;
+&lt;p&gt;If you want run in to main domain you can upload on &lt;code&gt;public_html&lt;/code&gt; root.&lt;/p&gt;
+&lt;p&gt;If you want run in to dir domain, you can create new dir domain , and upload the source code project in to your dir domain.&lt;/p&gt;
+&lt;p&gt;And if you need to run in to your subdomain, you can create new subdomain and upload source code project in to your subdomain.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Configuraton Your Website</title>
+    <link href="https://markdownuts.axcora.com/doc/configuration/" />
+    <updated>2025-01-20T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/doc/configuration/</id>
+    <content type="html">&lt;p&gt;Before your create static page or blog post article, for first you need to setup and configuration your site.&lt;/p&gt;
+&lt;p&gt;You can access on &lt;code&gt;config.yml&lt;/code&gt; file and update meta title, description , favicon logo, language, locale, and others,on this area.&lt;/p&gt;
+&lt;p&gt;After your have update your site, you can generate sitemap by access on &lt;code&gt;yoursite.com/getsitemap.php&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For manual generate sitemap , open terminal and run this command &lt;code&gt;php generate_sitemap.php&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And your &lt;code&gt;sitemap.xml&lt;/code&gt; is ready in your root project.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>SEO Setup</title>
+    <link href="https://markdownuts.axcora.com/doc/seo/" />
+    <updated>2025-01-18T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/doc/seo/</id>
+    <content type="html">&lt;p&gt;To setup and configure your website SEO, you need to access in to &lt;code&gt;config.yml&lt;/code&gt; file, and edit this line code.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;title: &amp;quot;My Awesome Blog&amp;quot;
+description: &amp;quot;A blog about awesome things&amp;quot;
+url: &amp;quot;http://localhost/markdownuts&amp;quot;
+email: &amp;quot;axcora@gmail.com&amp;quot;
+locale: &amp;quot;en_US&amp;quot;
+language: &amp;quot;en&amp;quot;
+image: &amp;quot;/media/logo.webp&amp;quot;
+icon: &amp;quot;/media/logo.webp&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can customize it to your needs.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Pagination Setup</title>
+    <link href="https://markdownuts.axcora.com/doc/pagination/" />
+    <updated>2025-01-17T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/doc/pagination/</id>
+    <content type="html">&lt;p&gt;This menu is used to update your blog list , you can update the pagination in to &lt;code&gt;config.yml&lt;/code&gt; and edit this line code&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;posts_per_page: &amp;quot;4&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Change number with your needs.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Setup Navbar</title>
+    <link href="https://markdownuts.axcora.com/doc/navbar/" />
+    <updated>2025-01-17T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/doc/navbar/</id>
+    <content type="html">&lt;p&gt;If you need to update navbar menu and url, you can simply change in to &lt;code&gt;config,yml&lt;/code&gt; file, and update this area.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;navbar:
+ - nav: &amp;quot;Home&amp;quot;
+   url: &amp;quot;/&amp;quot;
+ - nav: &amp;quot;About&amp;quot;
+   url: &amp;quot;/page/about&amp;quot;
+ - nav: &amp;quot;Tags&amp;quot;
+   url: &amp;quot;/tags&amp;quot;
+ - nav: &amp;quot;Contact&amp;quot;
+   url: &amp;quot;/page/contact-us&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Name is for your navbar menu name, and url is for link url for your navbar menu.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Footer Setup</title>
+    <link href="https://markdownuts.axcora.com/doc/footer/" />
+    <updated>2025-01-17T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/doc/footer/</id>
+    <content type="html">&lt;p&gt;This menu is used to update the information text in the footer, you can update the footer such as copyrights, or provide other information.&lt;/p&gt;
+&lt;p&gt;to update the footer you can access &lt;code&gt;config.yml&lt;/code&gt; then change the following code line.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;footer: &amp;quot;Brutalisme Copyrights 2025&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
 </content>
   </entry>
 </feed>
