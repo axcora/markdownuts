@@ -55,7 +55,7 @@ eleventyConfig.addPassthroughCopy("content/media/img/gallery");
 			}
 		},
 		collection: {
-			name: "posts",
+			name: "docs",
 			limit: 10,
 		},
 		metadata: {
