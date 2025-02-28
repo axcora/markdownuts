@@ -51,7 +51,16 @@ Or install with your project name
 composer create-project creativitas/markdownuts my-project
 ```
 
-Download Full Source Code Package [[Download Markdownuts]](https://creativitaz.gumroad.com/l/markdownuts-starter)
+Run Markdownuts with PHP built in server
+
+
+```php
+php -S localhost:8080 router.php
+```
+
+And access `localhost:8080`
+
+You can also Download Full Source Code Package [[Download Markdownuts]](https://creativitaz.gumroad.com/l/markdownuts-starter)
 
 Next you can open on `config.yml` and update your site url that's it , your markdownuts project is live !!
 

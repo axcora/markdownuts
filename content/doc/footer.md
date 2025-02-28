@@ -2,7 +2,7 @@
 title: Footer Setup
 description: How to setup and configuration footer area your website project.
 date: 2025-01-17
-info: Navbar
+info: Footer
 image: /media/img/c95425f44fac4338b62af1ec3a847046.webp
 tags:
   - footer
