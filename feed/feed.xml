@@ -100,15 +100,81 @@
 </content>
   </entry>
   <entry>
+    <title>Run On Hosting</title>
+    <link href="https://markdownuts.axcora.com/doc/run-on-hosting/" />
+    <updated>2025-01-20T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/doc/run-on-hosting/</id>
+    <content type="html">&lt;p&gt;If you want to run in to your hosting , you can download full source code using terminal or download main source code.&lt;/p&gt;
+&lt;h3 id=&quot;download-markdownuts&quot;&gt;Download Markdownuts&lt;/h3&gt;
+&lt;p&gt;For first you can download full source code - &lt;a href=&quot;https://creativitaz.gumroad.com/l/markdownuts-starter&quot;&gt;Download MarkDownuts Now&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next you can login in to your hosting panel , and upload full source code in to your project.&lt;/p&gt;
+&lt;h3 id=&quot;run-with-composer&quot;&gt;Run with Composer&lt;/h3&gt;
+&lt;p&gt;Composer Installation on your cloud / shared hosting, make sure your host support with terminal and composer, next you can access your project on sub domain , main domain or dir domain with terminal cli ,example on dir domain&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd/public_html/dirdomain
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next you can run change &lt;code&gt;project-name&lt;/code&gt; with your project name&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;composer create-project creativitas/markdownuts project-name
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now your site is live and you can access on &lt;code&gt;https://yoursite/project-name&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;configure-site-url&quot;&gt;Configure Site URL&lt;/h3&gt;
+&lt;p&gt;Open &lt;code&gt;config.yml&lt;/code&gt; file and add your site url.&lt;/p&gt;
+&lt;p&gt;Site url on live online hosting . input your domain name , example&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;url: &amp;quot;https://myweb.com&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Run On Local</title>
+    <link href="https://markdownuts.axcora.com/doc/run-local/" />
+    <updated>2025-01-20T00:00:00Z</updated>
+    <id>https://markdownuts.axcora.com/doc/run-local/</id>
+    <content type="html">&lt;p&gt;If you want to run in to your local device or localhost , you can download full source code using terminal or download main source code.&lt;/p&gt;
+&lt;h3 id=&quot;run-with-xampp-lampp-wampp&quot;&gt;Run with XAMPP / LAMPP / WAMPP&lt;/h3&gt;
+&lt;p&gt;For first you can download full source code - &lt;a href=&quot;https://creativitaz.gumroad.com/l/markdownuts-starter&quot;&gt;Download MarkDownuts Now&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next you can upload your markdownuts source code in to your project folder&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;htdocs/project
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now you can run start your Xampp / Lampp web server,and access&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;locahost/yourproject
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next configure your site url , open &lt;code&gt;config.yml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Add Site url on localhost . input your htdocs project name , example&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;url: &amp;quot;http://localhost/markdownuts&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;run-with-php-built-in-webserver&quot;&gt;Run with PHP built-in-webserver&lt;/h3&gt;
+&lt;p&gt;You can run with php built in server , download markdownuts project or you can use composer installation / git clone in to your project.&lt;/p&gt;
+&lt;p&gt;Next access your project with terminal and run&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;php -S localhost:8080 router.php
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now you can access &lt;code&gt;localhost:8080&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Next configure your site url , open &lt;code&gt;config.yml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Add Site url on localhost . leave empty site url , example&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;url: &amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
+  <entry>
     <title>Configuraton Your Website</title>
     <link href="https://markdownuts.axcora.com/doc/configuration/" />
-    <updated>2025-01-20T00:00:00Z</updated>
+    <updated>2025-01-19T00:00:00Z</updated>
     <id>https://markdownuts.axcora.com/doc/configuration/</id>
     <content type="html">&lt;p&gt;Before your create static page or blog post article, for first you need to setup and configuration your site.&lt;/p&gt;
 &lt;p&gt;You can access on &lt;code&gt;config.yml&lt;/code&gt; file and update meta title, description , favicon logo, language, locale, and others,on this area.&lt;/p&gt;
 &lt;p&gt;After your have update your site, you can generate sitemap by access on &lt;code&gt;yoursite.com/getsitemap.php&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;For manual generate sitemap , open terminal and run this command &lt;code&gt;php generate_sitemap.php&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;And your &lt;code&gt;sitemap.xml&lt;/code&gt; is ready in your root project.&lt;/p&gt;
+&lt;h3 id=&quot;configuration-site-url-live-hosting&quot;&gt;Configuration Site URL Live Hosting&lt;/h3&gt;
+&lt;p&gt;Site url on live online hosting . input your domain name , example&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;url: &amp;quot;https://myweb.com&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;configuration-site-url-localhost-xampp-wampp-lampp&quot;&gt;Configuration Site URL LocalHost XAMPP / WAMPP / LAMPP&lt;/h3&gt;
+&lt;p&gt;Site url on localhost . input your htdocs project name , example&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;url: &amp;quot;http://localhost/markdownuts&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;configuration-localhost-with-php-built-in-webserver&quot;&gt;Configuration LocalHost with PHP built-in-webserver&lt;/h3&gt;
+&lt;p&gt;Site url on localhost work with PHP built in server. remove and make empty url , example&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;url: &amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
 </content>
   </entry>
   <entry>
@@ -138,36 +204,6 @@ icon: &amp;quot;/media/logo.webp&amp;quot;
 &lt;pre&gt;&lt;code&gt;posts_per_page: &amp;quot;4&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Change number with your needs.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Setup Navbar</title>
-    <link href="https://markdownuts.axcora.com/doc/navbar/" />
-    <updated>2025-01-17T00:00:00Z</updated>
-    <id>https://markdownuts.axcora.com/doc/navbar/</id>
-    <content type="html">&lt;p&gt;If you need to update navbar menu and url, you can simply change in to &lt;code&gt;config,yml&lt;/code&gt; file, and update this area.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;navbar:
- - nav: &amp;quot;Home&amp;quot;
-   url: &amp;quot;/&amp;quot;
- - nav: &amp;quot;About&amp;quot;
-   url: &amp;quot;/page/about&amp;quot;
- - nav: &amp;quot;Tags&amp;quot;
-   url: &amp;quot;/tags&amp;quot;
- - nav: &amp;quot;Contact&amp;quot;
-   url: &amp;quot;/page/contact-us&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Name is for your navbar menu name, and url is for link url for your navbar menu.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Footer Setup</title>
-    <link href="https://markdownuts.axcora.com/doc/footer/" />
-    <updated>2025-01-17T00:00:00Z</updated>
-    <id>https://markdownuts.axcora.com/doc/footer/</id>
-    <content type="html">&lt;p&gt;This menu is used to update the information text in the footer, you can update the footer such as copyrights, or provide other information.&lt;/p&gt;
-&lt;p&gt;to update the footer you can access &lt;code&gt;config.yml&lt;/code&gt; then change the following code line.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;footer: &amp;quot;Brutalisme Copyrights 2025&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
 </content>
   </entry>
 </feed>
